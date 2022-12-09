@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Docs</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="icon"
+      href="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"
+    />
+  </head>
+  <body>
+    <h1 class="title">Url shortener</h1>
+    <form action="/url/new" method="POST">
+      <input
+        type="url"
+        name="fullUrl"
+        placeholder="url here"
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Create Url</button>
+    </form>
+  </body>
+</html>
